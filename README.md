@@ -47,5 +47,5 @@ The model was further improved through mesh optimization, fitting to actual imag
 Results demonstrate that the methodology is consistent and capable of generating high quality triangulated meshes of vascular trees suitable for CFD simulations. Compared to common techniques, conformal mapping proved to be a simple and effective mathematical approach for polygonal mesh modeling of bifurcating vessels.
 
 ## Publication
-1. Centerline-Radius Polygonal-Mesh Modeling of Bifurcated Blood Vessels in 3D Images using Conformal Mapping, C. Vinhais, M. Kociński, A. Materka, SPA 2018, Signal Processing Algorithms, Architectures, Arrangements, and Application, 19-21 September 2018, Poznan, Poland, IEEE Conference, [link](https://doi.org/10.23919/SPA.2018.8563388)
+1. Centerline-Radius Polygonal-Mesh Modeling of Bifurcated Blood Vessels in 3D Images using Conformal Mapping, C. Vinhais, M. Kociński, A. Materka, SPA 2018, Signal Processing Algorithms, Architectures, Arrangements, and Application, 19-21 September 2018, Poznan, Poland, IEEE Conference, ([link](https://doi.org/10.23919/SPA.2018.8563388))
 
