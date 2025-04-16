@@ -14,7 +14,8 @@ The implementation is capable of generating high-quality triangulated meshes of 
 <br>
 <table align="center">
   <tr><td align="center><img src="figs/fig4.png" alt="fig4"></td></tr>
-  <tr><td align="center"><i><span style="font-size:smaller;">Polygonal mesh construction of a bifurcation from 3 connected vessels. (a) Bifurcation model and associated source landmarks, (b) corresponding target landmarks and (c) bifurcation mesh generated after TPS transform.</span></i></td></tr>
+  <tr><td align
+="center"><i><span style="font-size:smaller;">Polygonal mesh construction of a bifurcation from 3 connected vessels. (a) Bifurcation model and associated source landmarks, (b) corresponding target landmarks and (c) bifurcation mesh generated after TPS transform.</span></i></td></tr>
 </table>
 <br>
 
