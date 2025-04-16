@@ -15,14 +15,17 @@ For bifurcations, each branch is modeled with a cylinder and transformed accordi
   <tr><td align="center"><i><span style="font-size:smaller;">Model construction of a planar bifurcation using conformal mapping. (a) Model of a branch and (b) branch after conformal mapping. Bifurcation model with 3 conformal branches of (c) equal and (d) different lengths.</span></i></td></tr>
 </table>
 <br>
+
 The conformal branches are appended together to obtain a smooth and continuous geometrical model of the bifurcation. The polygonal mesh of the bifurcation is finally obtained using a TPS transform defined by appropriate source and target landmarks (Figure 4).
 <br>
+
 <table align="center">
   <tr><td align="center"><img src="figs/fig4.png" alt="fig4"></td></tr>
   <tr><td align
 ="center"><i><span style="font-size:smaller;">Polygonal mesh construction of a bifurcation from 3 connected vessels. (a) Bifurcation model and associated source landmarks, (b) corresponding target landmarks and (c) bifurcation mesh generated after TPS transform.</span></i></td></tr>
 </table>
 <br>
+
 The model is improved by computing local intensity features with subvoxel accuracy to slightly deform the mesh. An iterative region-based deformable model moves vertices under the influence of external forces (attracting vertices toward vessel boundaries) and internal forces (Laplacian smoothing).
 
 The algorithm was tested on a 3D synthetic image containing connected cylinders of different diameters and a 3D Time of Flight MR brain angiogram. Polygonal meshes of tubular segments and bifurcations were automatically generated, resulting in triangulated meshes with varying resolutions (Figure 6).
@@ -32,6 +35,7 @@ The algorithm was tested on a 3D synthetic image containing connected cylinders 
   <tr><td align="center"><i><span style="font-size:smaller;">Polygonal meshes generated from the 3D synthetic image. Top: vessel tree; Bottom: example of bifurcations, generated with N = 24 (left) and N = 48 (right).</span></i></td></tr>
 </table>
 <br>
+
 The model was further improved through mesh optimization, fitting to actual image intensity by computing local features with subvoxel accuracy (Figure 8).
 <br>
 <table align="center">
@@ -39,6 +43,7 @@ The model was further improved through mesh optimization, fitting to actual imag
   <tr><td align="center"><i><span style="font-size:smaller;">Polygonal mesh optimization. Mesh of bifurcating vessels generated from the 3D synthetic image: (a) before and (b) after optimization.</span></i></td></tr>
 </table>
 <br>
+
 Results demonstrate that the methodology is consistent and capable of generating high quality triangulated meshes of vascular trees suitable for CFD simulations. Compared to common techniques, conformal mapping proved to be a simple and effective mathematical approach for polygonal mesh modeling of bifurcating vessels.
 
 ## Publication
