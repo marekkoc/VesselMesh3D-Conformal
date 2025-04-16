@@ -1,1 +1,6 @@
 # VesselMesh3D-Conformal
+
+This repository contains the implementation of an automated algorithm for constructing polygonal meshes of blood vessels from 3D medical images (CTA and MRA), with a novel approach for modeling bifurcations based on conformal mapping.
+The algorithm models each vascular segment as a tubular object, using thin plate spline transforms to generate the corresponding surface from its centerline-radius representation. The innovation lies in the mathematical approach for generating polygonal meshes of bifurcating vessels through conformal mapping, which proved to be both simple and effective compared to common techniques.
+The model is further refined by computing local intensity features with subvoxel accuracy to fine-tune the vascular tree mesh. The methodology was validated on both synthetic 3D images with randomly generated vascular branches and real-world Time of Flight MRA data.
+The implementation is capable of generating high-quality triangulated meshes of vascular trees suitable for computational fluid dynamic (CFD) simulations. Compared to existing techniques, the conformal mapping approach offers a more elegant mathematical solution for polygonal mesh modeling of bifurcating vessels.
